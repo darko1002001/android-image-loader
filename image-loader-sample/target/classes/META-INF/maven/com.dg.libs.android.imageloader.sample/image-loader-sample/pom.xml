@@ -23,6 +23,7 @@
       <artifactId>image-loader</artifactId>
       <version>1.2.2</version>
       <type>apksources</type>
+      <scope>provided</scope>
     </dependency>
   </dependencies>
   <build>
