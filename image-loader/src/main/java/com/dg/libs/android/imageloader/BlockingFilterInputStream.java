@@ -6,11 +6,13 @@ import java.io.InputStream;
 
 /**
  * @author Darko.Grozdanovski
- * @author Jan.Marincek /** A {@link FilterInputStream} that blocks until the requested number of
- *         bytes have been read/skipped, or the end of the stream is reached.
+ * @author Jan.Marincek /** A {@link FilterInputStream} that blocks until the
+ *         requested number of bytes have been read/skipped, or the end of the
+ *         stream is reached.
  *         <p>
  *         This filter can be used as a work-around for <a
- *         href="http://code.google.com/p/android/issues/detail?id=6066">Issue #6066</a>.
+ *         href="http://code.google.com/p/android/issues/detail?id=6066">Issue
+ *         #6066</a>.
  **/
 class BlockingFilterInputStream extends FilterInputStream {
 
